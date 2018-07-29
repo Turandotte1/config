@@ -146,6 +146,12 @@ noremap <leader>q :bp<CR>
 noremap <leader>x :bn<CR>
 noremap <leader>c :bd<CR>
 nnoremap <silent> <leader><space> :noh<cr>
+noremap <ENTER> o<ESC>
+
+nnoremap <Left> :echo "No, no, no, use fucking hjkl"<CR>
+nnoremap <Right> :echo "No, no, no use fucking hjkl"<CR>
+nnoremap <Up> :echo "No, no, no use fucking hjkl"<CR>
+nnoremap <Down> :echo "You know what i'm going to tell you"<CR>
 
 vmap < <gv
 vmap > >gv
